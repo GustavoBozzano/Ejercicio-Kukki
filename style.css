@@ -1,0 +1,42 @@
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  /* font-weight: 20px; */
+  background-image: url(/img/alfa_main.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 75vh;
+  background-position: center;
+  background-attachment: fixed;
+  /* background: linear-gradient(); */
+}
+h1 {
+  text-align: center;
+}
+#button {
+  text-decoration: none;
+}
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 900px;
+  z-index: -1;
+}
+/* img.header__logo-box {
+  size: 20%;
+} */
+ul.navigation__list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  list-style-type: none;
+  padding: 0;
+}
+a.navigation__link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+}
